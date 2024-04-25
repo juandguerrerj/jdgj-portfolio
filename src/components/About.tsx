@@ -10,7 +10,7 @@ import {
   Typography,
 } from "@mui/material";
 import Image from "next/image";
-import image1 from "../../public/assets/images/software-developer-studying3.png";
+import image1 from "../../public/assets/images/software-developer-about.jpg";
 import CodeIcon from "@mui/icons-material/Code";
 
 type SkillsProps = {

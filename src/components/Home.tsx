@@ -12,7 +12,7 @@ function Home() {
         sx={{ mt: { xs: "2rem", sm: "2rem", md: "5rem" } }}
       >
         <Grid item xs={12} sm={6} md={6} lg={6}>
-          <div className="w-max border-solid border-black border p-1 ml-6">
+          <div className="w-max p-1 ml-6">
             Welcome to my Portfolio
           </div>
           <Box component="div" sx={{ width: "100%", p: "1.5rem" }}>
@@ -44,7 +44,7 @@ function Home() {
           >
             <Image
               alt="juan"
-              src="/assets/images/software-developer-studying4.png"
+              src="/assets/images/software-developer-homepage.png"
               width={800}
               height={800}
             />
