@@ -9,7 +9,9 @@ import {
   Grid,
   Stack,
   Typography,
+  Divider
 } from "@mui/material";
+
 
 const projects = [
   {
@@ -38,6 +40,7 @@ const Projects = () => {
       <Typography variant="h5" textTransform="uppercase">
         Projects
       </Typography>
+      <Divider sx={{ my: "1rem" }} />
       <Grid container>
         {projects.map((project) => (
           <Grid item xs={12} sm={4} md={4} lg={4} key={project.title} sx={{ display: 'flex', justifyContent: 'center' }}>

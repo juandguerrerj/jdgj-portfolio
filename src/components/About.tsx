@@ -39,7 +39,7 @@ function About() {
   return (
     <Container maxWidth="xl" sx={{ display: "flex", my: "2rem" }} id="about">
       <Paper sx={{ width: "100%", margin: "0 auto" }}>
-        <Grid container spacing={2}>
+        <Grid container spacing={2} sx={{ mb: "2rem" }}>
           <Grid item xs={12} sm={5} md={5} lg={5}>
             <Typography
               variant="h5"

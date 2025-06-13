@@ -103,9 +103,9 @@ const Experience = () => {
           <Typography variant="h5" textTransform="uppercase" sx={{ pt: "1.5rem", pl: '1.5rem' }}>
             Experience
           </Typography>
-          <Grid container spacing={2} sx={{ mt: "1rem" }}>
-            <Grid item xs={12} sm={6} md={6} lg={6}>
-              <Grid container spacing={3}>
+          <Grid container spacing={2} sx={{ mt: "1rem", mb: "1rem", display: "flex", justifyContent: "center" }} columnSpacing={4}> 
+            <Grid item xs={12} sm={6} md={4} lg={4}>
+              <Grid container spacing={3} sx={{ mt: "0.5rem" }}>
                 {technologyItems.map((item) => (
                   <Grid
                     item

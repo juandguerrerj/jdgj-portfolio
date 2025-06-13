@@ -100,7 +100,7 @@ function NavBar() {
         className={scrolled ? "scrolled" : ""}
       >
         <Container maxWidth="xl">
-          <Toolbar disableGutters sx={{ width: "100%" }}>
+          <Toolbar disableGutters sx={{ width: "80%", margin: "0 auto" }}>
             {/* Small size rendering */}
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <Logo />
