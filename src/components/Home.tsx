@@ -44,10 +44,10 @@ function Home() {
           >
             <Image
               alt="juan"
-              src="/assets/images/experience/springboot.png"
+              src="/assets/images/me1.png"
               width={800}
               height={800}
-              style={{ width: "40%", height: "auto", borderRadius: "50%" }}
+              style={{ width: "50%", height: "auto", borderRadius: "50%" }}
             />
           </Box>
         </Grid>
